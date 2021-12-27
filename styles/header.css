@@ -1,0 +1,420 @@
+/* black horizontal line*/
+.hrbod{
+  border: 2px solid black;
+  background-color:black;
+}
+
+/*code to change the button color when the cursor go on top of it*/
+.log:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.2s;  
+}
+/* to dark the border*/
+.logo2{
+border: 2px solid black;
+}
+
+.logo_2{
+  width="100%";
+   height="500px;
+border: 2px solid black;
+}
+/* input in forms and login */
+input {
+  width: 10%;
+  padding: 12px;
+  border: 2px red;
+  border-radius: 5px;
+
+}
+
+/*to remove the underline in link*/
+a:link {
+  text-decoration: none;
+    
+}
+
+/*slideshow position*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+/*image position and size*/
+.container img {
+  width: 100%;
+  height: auto;
+}
+/*class for login button*/
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*class for register button*/
+.container .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*class to change the button color*/
+.container .btn:hover {
+  background-color: red;
+  color: white;
+}
+
+/*class to change the button color*/
+.container .btn1:hover {
+  background-color: red;
+  color: white;
+}
+
+/*class to change the button color*/
+.btn3:hover {
+  background-color: red;
+  color: white;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_bg {
+    background-color: #48493b;
+}
+
+  body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.navi{
+    background-color: #6D6E59 ;
+}
+
+.navbar{
+    display: flex;
+    background-color: #6D6E59 ;
+    justify-content: space-between;
+}
+
+.logo-text{
+    color: white;
+    margin: 18px;
+}
+.navi a {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.navi a:hover{
+    background-color: #48493b;
+    border-radius: 0px;
+    
+}
+
+
+.footer-distributed {
+    background-color: #48493b;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 15px;
+    transition: ease .25s;
+  }
+  
+
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 250px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 40px;
+    /* height: 35px; */
+    /* background-color: #33383b; */
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 8px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_bg {
+    background-color: #48493b;
+}
+
+  body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.navi{
+    background-color: #6D6E59 ;
+}
+
+.navbar{
+    display: flex;
+    background-color: #6D6E59 ;
+    justify-content: space-between;
+}
+
+.logo-text{
+    color: white;
+    margin: 18px;
+}
+.navi a {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.navi a:hover{
+    background-color: #48493b;
+    border-radius: 0px;
+    
+}
+
+
+.footer-distributed {
+    background-color: #48493b;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 15px;
+    transition: ease .25s;
+  }
+  
+
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 250px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 40px;
+    /* height: 35px; */
+    /* background-color: #33383b; */
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 8px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+

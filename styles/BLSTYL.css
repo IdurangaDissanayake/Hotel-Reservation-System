@@ -1,0 +1,27 @@
+body{
+	background-image: url("../images/bg1.jpg");
+	
+}
+
+
+fieldset {
+				width: 310px;
+				margin-top: 20px;
+				border: 1px solid #d6d6d6;
+				background-color: #FFFFF0;
+				line-height: 1.6em;}
+	legend {
+				font-style: italic;
+				color: red;}			
+				
+	input[type="submit"]  {
+				border: 1px solid #006633;
+				background-color: #4D7370;
+				color: #ffffff;
+				border-radius: 5px;
+				padding: 5px;
+				margin-top: 10px;}
+	.input {
+    width: 300px;
+    padding: 50px;
+}			

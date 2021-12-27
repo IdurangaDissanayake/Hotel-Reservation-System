@@ -1,0 +1,162 @@
+<! DOCTYPE html>
+<html>
+  <head>
+  <title> Gold Crown Hotel </title> 					
+   <link rel="stylesheet" href="../styles/styles.css">  <!-- Link the CSS file -->    
+		 <script type = "text/javascript" src = "../js/hot.js"> </script>		<!-- Link the JS file --> 
+  </head>
+<body>
+	<style>
+body {
+  background-image: url('../images/ss.jpg');  /*Insert a Background image*/			<!-- Insert a Background Image --> 
+}
+    </style>
+    <div class="header_bg" >			<!-- Header --> 
+    <img class = "heading"
+      src="../images/gold.jpg"
+      width="100px"
+      alt="wedding logo"
+    />
+    </div>
+
+    <div class="navbar" >
+    <div class="nav-header" >
+      <h3 class="logo-text">Gold Crown Weddings</h3>
+    </div>
+    <div class="navi">
+      <a href="header.html"> Home </a>     
+      <a href="PT.html"> Planning Tools </a>
+      <a href="booknow.html"> Book Now </a>
+      <a href="gallery.html"> Gallery </a>
+      <a href="faqq.html"> FAQ </a>
+      <a href="about.html"> About </a>
+      <a href="contactUs.html"> Contact Us </a>
+    </div>
+     </div>
+		
+		
+		
+			<h2 class="serif" align="center" ><b> Fill Following Form To Book </b></h2>
+		<center><br><br>
+	<form action="../php/reservation.php"  method="POST" >			<!-- Begining of the Form  --> 
+	<label> Name With Initials </label><br>								<!-- Get Name of User  --> 
+	<input type="text" id="fname" name="fname" style="width:1000px" placeholder="Name With Initials" required><br><br>
+	
+		<label> E-Mail </label><br>										<!-- Get E-mail of User  --> 	
+	<input type="text" id="email" name="email" style="width:500px" placeholder="E-Mail" required><br><br>
+	
+	Mobile Number<br>													<!-- Get Phone NO of User  --> 
+	<input type="text" id="mobile" name="mobile" style="width:250px" placeholder="0XX XXXXXXX" pattern="[0-9]{10}" required><br><br>	
+	
+
+	<label for="Reservation">Reservation:</label>					<!-- Date Selection  --> 
+    <input type="date" id="reservation" name="reservation"><br><br>
+
+	
+	<label> Groom & Bride Names </label><br>						<!-- Get Groom & Bride Names  --> 
+	<input type="text" id="fnames" name="fnames" style="width:1000px" placeholder="Groom's Name & Bride's Name" required><br><br>
+	
+	
+	
+	
+	<u>Booking the Hall</u> <br><br>						<!-- Selection of the  Hall  --> 
+		Select the Banquet Hall ID<br><br>
+	<input type="radio" value="PB1" name="banqHallId" value="PB1" checked>PB1
+	<input type="radio" value="PB2" name="banqHallId" value="PB2"  >PB2
+	<input type="radio" value="PB3" name="banqHallId" value="PB3" >PB3<br><br>
+	
+	<u>Menu</u> <br><br>									<!-- Selection of the  Menu  --> 
+		Select the Menu ID<br><br>
+	<input type="radio" value="PM1" name="menuID" value="PM1" checked>PM1
+	<input type="radio" value="PM2" name="menuID" value="PM2" >PM2
+	<input type="radio" value="PM3" name="menuID" value="PM3" >PM3<br><br>
+	
+	<u> Bar & Liquor</u> <br><br>							<!-- Selection of the  Bar & Liquoar Packages  --> 
+		Select the Bar & Liquor ID<br><br>
+	<input type="radio" value="PBL1" name="liquorID"  value="PBL1" checked>PBL1
+	<input type="radio" value="PBL2" name="liquorID"  value="PBL2" >PBL2
+	<input type="radio" value="PBL3" name="liquorID"  value="PBL3" >PBL3<br><br>
+	
+	
+	<u>Others</u> <br><br>
+	
+	<b> Wedding Cars </b><br><br>					<!-- Selection of the  Wedding Car  --> 
+	Select the Wedding Car ID<br><br>
+	<input type="radio" value="POW3" name="carID" value="POW1" checked>POW1
+	<input type="radio" value="POW3" name="carID" value="POW2">POW2
+	<input type="radio" value="POW3" name="carID" value="POW3" >POW3<br><br>
+	
+	<b> Wedding Decorations </b><br><br>
+	Select the Table & Chairs  ID<br><br>				<!-- Selection of the  Tables & Chairs  --> 
+	<input type="radio" value="POC1" name="tcID" value="POC1" checked>POC1
+	<input type="radio" value="POC2" name="tcID" value="POC2" >POC2
+	<input type="radio" value="POC3" name="tcID" value="POC3" >POC3<br><br>
+	
+
+	Select the Poruwa ID<br><br>					<!-- Selection of the  Poruwa  -->
+	<input type="radio" value="POP1" name="poruwaID" value="POP1" checked>POP1
+	<input type="radio" value="POP2" name="Poruwa ID" value="POP2" >POP2
+	<input type="radio" value="POP3" name="Poruwa ID"  value="POP3">POP3<br><br>
+	
+	<b> Entertaintment </b><br><br>
+	Select the Dancing Group ID <br><br>			<!-- Selection of the  Dancing Gruop  -->
+	<input type="radio" value="POD1" name="danceID" value="POD1" checked>POD1
+	<input type="radio" value="POD2" name="danceID" value="POD2" >POD2<br><br>
+	
+
+	Select the Music ID<br><br>						<!-- Selection of the  Music Gruop  -->
+	<input type="radio" value="POM1" name="musicID" value="POM1" checked>POM1
+	<input type="radio" value="POM2" name="musicID" value="POM2" >POM2<br><br>
+	
+	Select the Jayamangala Songs ID<br><br>
+	<input type="radio" value="POJ1" name="jsID" value="POJ1">POJ1
+	<input type="radio" value="" name="jsID" value="no" >(No Need)<br><br>
+		<hr class="hrbod1">
+		
+	<b>Payment</b><br><br><br>				<!-- Selection of the  Payment   -->
+	<b>Card Payment {Enter Your Card Details}<br><br>
+	
+	Card Number<br>													<!-- Get Phone NO of User  --> 
+	<input type="text" id="cardno" name="cardno" style="width:250px" placeholder="1654643XXXX"  required><br><br>
+	
+	CVC Number<br>													<!-- Get Phone NO of User  --> 
+	<input type="text" id="cvcno" name="cvcdno" style="width:60px" placeholder="XXX" pattern="[0-9]{0-9}[0-9]" required><br><br>
+		
+	
+	Accept privacy and policy terms 
+	
+	<input type="checkbox" id="policy" name="policy" required onclick="enableButton()" ><br><br><br>
+	
+	
+	<input type="submit"  class="but"	 id="btn" name="btn" value="Confirm Booking" disabled ><br><br><br> <!-- Confirm Booking Button  -->
+	<input type="reset"  class="but"	 id="btn22" name="btn22" value="Reset"><br><br><br>
+	
+	</form>			<!-- End of the form  -->
+		
+				     <footer class="footer-distributed">		<!-- Footer  -->
+
+        <div class="footer-right">
+      
+          <a href="#"><img class = "logo1" src = "../images/visa.png" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/ms.png" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/aex.jpg" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/dis.jpg" width="40px"></a>
+         
+      
+        </div>
+<div class="footer-left">
+      
+          <p class="footer-links">
+            <a class="link-1" href="#">TOP</a>
+            <a class="link-1" href="get.html">Get the APP</a>
+            
+            
+          </p>
+      
+          <p>Gold Crown Hotel &copy; 2020</p>
+        </div>
+      
+      </footer>
+          
+          </body>
+          </html>

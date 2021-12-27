@@ -1,0 +1,106 @@
+<! DOCTYPE html>
+<html>
+  <head>
+  <title> Gold Crown Hotel </title>
+   <link rel="stylesheet"type="text/css"href="../styles/styles.css">		<!-- Link the CSS file -->
+		 <script type = "text/javascript" src = "../js/hot.js"> </script>		<!-- Link the JS file --> 
+  </head>
+<body>
+	<style>
+body {
+  background-image: url('../images/ss.jpg');		<!-- Insert a Background Image --> 
+}
+    </style>
+    <div class="header_bg" >				<!-- Header --> 
+    <img class = "heading"
+      src="../images/gold.jpg"
+      width="100px"
+      alt="wedding logo"
+    />
+    </div>
+
+    <div class="navbar" >
+    <div class="nav-header" >
+      <h3 class="logo-text">Gold Crown Weddings</h3>
+    <div class="navi">
+      <a href="header.html"> Home </a>     
+      <a href="PT.html"> Planning Tools </a>
+      <a href="booknow.html"> Book Now </a>
+       <a href="gallery.html"> Gallery </a>
+      <a href="faqq.html"> FAQ </a>
+      <a href="about.html"> About </a>
+      <a href="contactUs.html"> Contact Us </a>
+    </div>
+     </div>
+		
+			<h2 class="serif" align="center" ><b> Select Your Menu </b></h2>
+						<center>
+			<img  src = "../images/gold.jpg " width=" 30%	  ">
+			<br><br><br>
+			<center>
+			
+		
+		  <button class = "but" type = "button" onclick = "loadData('button1')"> SILVER </button><!-- Buttons of the "Menu " page --> 
+		  <button class = "but" type = "button" onclick = "loadData('button2')"> GOLD </button>
+		  <button class = "but" type = "button" onclick = "loadData('button3')"> PLATINAM </button>
+		  <br><br><br><br><br><br>
+
+		
+
+		    <img id = "img" class = "logo_2">
+  <p id = "para" class = "font2" align = "center"></p>
+  
+  		 	<form method="POST" action="../php/hotel.php">
+		  <fieldset>
+		  <legend> <b> <i> Customize Your Package </i><b></legend><br>
+		  
+	      <label> UserName </label><br>								<!-- Get Name of Registered Customer  --> 
+	      <input type="text" id="fname" name="fname" style="width:300px" placeholder="KaviBandara" required><br><br>
+		  
+		  Mobile Number<br>													<!-- Get Phone NO of Registered Customer  --> 
+	      <input type="text" id="mobile" name="mobile" style="width:250px" placeholder="0XX XXXXXXX" pattern="[0-9]{10}" required><br><br>
+		  <br><br>
+		  
+		  <b>What is the Selected Menu package Type?</b><br> 
+		  <input type="radio" value="Silver" name="package" checked>Silver
+	    <input type="radio" value="Gold" name="package" >Gold
+	    <input type="radio" value="Platinam" name="package" >Platinam<br><br>
+		  
+		  <b>Changes of The Menu</b><br>
+		  <input type="text" id="fnote" name="fnote" style="width:700px;padding:60px" placeholder="Type Here" required><br><br>
+		  <br><br><br>
+		  <input type="submit"class="but"	 id="btn" name="btn" value="Submit"  ><br><br>
+		  <input type="reset"class="but"	 id="btn22" name="btn22" value="Reset">
+		  </fieldset>
+		</form>
+		
+		
+		     <footer class="footer-distributed">  
+
+        <div class="footer-right">   <!-- Footer --> 
+      
+          <a href="#"><img class = "logo1" src = "../images/visa.png" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/ms.png" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/aex.jpg" width="40px"></a>
+          <a href="#"><img class = "logo1" src = "../images/dis.jpg" width="40px"></a>
+         
+
+		
+      
+        </div>
+        <div class="footer-left">
+      
+          <p class="footer-links">
+            <a class="link-1" href="#">TOP</a>
+            <a class="link-1" href="get.html">Get the APP</a>
+            
+            
+          </p>
+      
+          <p>Gold Crown Hotel &copy; 2020</p>
+        </div>
+      
+      </footer>
+          
+          </body>
+          </html>
